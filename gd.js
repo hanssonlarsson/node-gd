@@ -16,7 +16,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 var sys  = require('sys');
 var fs   = require("fs");
-var bind = require("./gd_bindings");
+var bind = require("./build/default/gd_bindings");
 
 for(var p in bind) {
 	if (bind[p] !== undefined) exports[p] = bind[p];
