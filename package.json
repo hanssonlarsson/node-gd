@@ -1,0 +1,15 @@
+{
+  "name": "gd",
+  "description": "Node.js bindings for gd graphics library",
+  "version": "0.1.0",
+  "author": "taggon <gonom9@gmail.com>",
+  "keywords": ["graphics"],
+  "engines": { "node": "*" },
+  "scripts": {
+    "preinstall": "node-waf configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hanssonlarsson/node-gd.git"
+  }
+}
