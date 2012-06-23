@@ -1,5 +1,5 @@
 #!/usr/local/bin/node
-var sys  = require('sys');
+var util = require('util');
 var fs   = require('fs');
 var path = require('path');
 var gd   = require('./gd');
