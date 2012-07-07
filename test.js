@@ -7,7 +7,7 @@ var gd   = require('./gd');
 var source = './funnyfog.png';
 var target = './funnyfog.thumb.png';
 
-if (path.exists(target)) fs.unlink(target);
+if (fs.exists(target)) fs.unlink(target);
 
 gd.openPng(
 	source,
