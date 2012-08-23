@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/hanssonlarsson/node-gd.png)](http://travis-ci.org/hanssonlarsson/node-gd)
 GD bindings for Node.js
 ==================================
 GD graphic library bindings for Node.js supporting asynchronous I/O.
